@@ -11,6 +11,18 @@
 	border: 1px solid var(--color-border);
 	flex-direction: column;
 }
+.news__contents {
+	width: 100%;
+}
+.news__contents ul {
+	list-style-type: none;
+	font-family: 'Akkurat-Regular';
+	margin-top: 1rem;
+}
+
+.news__contents ul li {
+	line-height: 1.5;
+}
 
 
 @media only screen and (max-width: 600px) {
